@@ -1,7 +1,6 @@
 <?php
 
 return [
-
     /*
     |--------------------------------------------------------------------------
     | Application Name
@@ -77,8 +76,8 @@ return [
     | to any of the locales which will be supported by the application.
     |
     */
-
-    'locale' => 'en',
+    /* 2018-10-30 en -> zh-CN */
+    'locale' => 'zh-CN',
 
     /*
     |--------------------------------------------------------------------------
