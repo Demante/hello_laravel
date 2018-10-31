@@ -1,5 +1,4 @@
 <?php
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -23,7 +22,7 @@ Route::get('/users/{user}', 'UsersController@show')->name('users.show');
 // login
 Route::get('login', 'SessionsController@create')->name('login');  //登录
 Route::post('login', 'SessionsController@store')->name('login');  //创建新的会话
-Route::delete('login', 'SessionsController@destroy')->name('login');  //销毁会话
+Route::delete('logout', 'SessionsController@destroy')->name('logout');  //销毁会话
 // Route::get('/', function () {
 //     return view('welcome');
 // });

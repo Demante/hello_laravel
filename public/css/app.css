@@ -8350,32 +8350,25 @@ button.close {
   }
 }
 
-/* 变量：$navbar-color,值：#3c3e4*/
-
 /* universal */
 
 body {
   padding-top: 60px;
-  /* 内上边距 */
 }
 
 section {
   overflow: auto;
-  /* 当内容溢出元素框时发生的事情 */
 }
 
 textarea {
   resize: vertical;
-  /* 用户对元素进行调整 */
 }
 
 .jumbotron {
-  -webkit-text-emphasis: center;
-          text-emphasis: center;
-  /* 向元素的文本应用重点标记以及重点标记的前景色 */
+  text-align: center;
 }
 
-/* typograhy */
+/* typography */
 
 h1,
 h2,
@@ -8388,67 +8381,52 @@ h6 {
 
 h1 {
   font-size: 3em;
-  /* 设置字体大小 */
   letter-spacing: -2px;
-  /* 设置字体边距 */
   margin-bottom: 30px;
-  /* 设置下外边距 */
   text-align: center;
-  /* 设置文本对齐方式 */
 }
 
 h2 {
   font-size: 1.2em;
-  /* 设置字体大小 */
   letter-spacing: -1px;
-  /* 设置字体边距 */
   margin-bottom: 30px;
-  /* 设置下外边距 */
   text-align: center;
-  /* 设置文本对齐方式 */
   font-weight: normal;
-  /* 设置字体粗细默认 */
   color: #777;
-  /* 设置颜色 */
 }
 
 p {
   font-size: 1.1em;
-  /* 设置字体大小 */
   line-height: 1.7em;
-  /* 设置行高 */
 }
 
 /* header */
 
 .navbar-inverse {
   background-color: #3c3e42;
-  /* 引用已定义好的变量 */
 }
 
 #logo {
   float: left;
-  /* 左浮动 */
   margin-right: 10px;
-  /* 设置右外边距 */
   font-size: 1.7em;
-  /* 设置字体大小 */
   color: #fff;
-  /* 颜色 */
   text-decoration: none;
-  /* 文本装饰效果 */
   letter-spacing: -1px;
-  /* 设置字体边距 */
   padding-top: 9px;
-  /* 内上边距 */
   font-weight: bold;
-  /* 字体粗细 */
 }
 
 #logo:hover {
-  /* &对父选择器进行引用 */
   color: #fff;
-  /* 颜色 */
+}
+
+#logout {
+  cursor: default;
+}
+
+#logout:hover {
+  background-color: transparent;
 }
 
 /* footer */
